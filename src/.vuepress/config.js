@@ -34,6 +34,8 @@ module.exports = {
 
   plugins: ['@vuepress/active-header-links', '@vuepress/back-to-top'],
 
+  dest: 'public',
+  base: '/dlangir/',
   locales: {
     '/en/': {
       lang: 'en-US', // this will be set as the lang attribute on <html>
