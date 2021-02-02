@@ -32,7 +32,7 @@ module.exports = {
     }]
   ],
 
-  plugins: ['@vuepress/active-header-links'],
+  plugins: ['@vuepress/active-header-links', '@vuepress/back-to-top'],
 
   locales: {
     '/en/': {
