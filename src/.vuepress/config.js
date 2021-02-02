@@ -24,8 +24,8 @@ module.exports = {
   locales: {
     '/': {
       lang: 'en-US', // this will be set as the lang attribute on <html>
-      title: 'English',
-      description: 'English'
+      title: 'D Language',
+      description: 'D Programming Language'
     },
     '/fa/': {
       lang: 'fa-IR',
@@ -43,6 +43,9 @@ module.exports = {
     locales:{
       '/' : {
         repo: '',
+        selectText: 'English',
+        label: 'English',
+        editLinkText: 'Edit this page on GitHub',
         editLinks: false,
         docsDir: '',
         editLinkText: '',
@@ -76,6 +79,9 @@ module.exports = {
       },
       '/fa/' : {
         repo: '',
+        selectText: 'فارسی',
+        label: 'فارسی',
+        editLinkText: 'میتوانید در گیت هاب ویرایش کنید',
         editLinks: false,
         docsDir: '',
         editLinkText: '',
