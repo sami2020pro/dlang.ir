@@ -1,4 +1,6 @@
-const { description } = require('../../package')
+const {
+  description
+} = require('../../package')
 
 module.exports = {
   /**
@@ -16,13 +18,22 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#B03931' }],
-    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', {
+      name: 'theme-color',
+      content: '#B03931'
+    }],
+    ['meta', {
+      name: 'apple-mobile-web-app-capable',
+      content: 'yes'
+    }],
+    ['meta', {
+      name: 'apple-mobile-web-app-status-bar-style',
+      content: 'black'
+    }]
   ],
 
   locales: {
-    '/': {
+    '/en/': {
       lang: 'en-US', // this will be set as the lang attribute on <html>
       title: 'D Language',
       description: 'D Programming Language'
@@ -40,24 +51,20 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    locales:{
-      '/' : {
+    locales: {
+      '/en/': {
         repo: '',
         selectText: 'English',
         label: 'English',
         editLinkText: 'Edit this page on GitHub',
         editLinks: false,
-        docsDir: '',
+        docsDir: '/en/',
         editLinkText: '',
         lastUpdated: false,
         nav: [
           {
-            text: 'Guide',
-            link: '/guide/',
-          },
-          {
             text: 'Library',
-            link: '/config/'
+            link: '/en/library/'
           },
           {
             text: 'DLang',
@@ -65,52 +72,44 @@ module.exports = {
           }
         ],
         sidebar: {
-          '/guide/': [
-            {
-              title: 'Guide',
-              collapsable: false,
-              children: [
-                '',
-                'using-vue',
-              ]
-            }
-          ],
+          '/en/guide/': [{
+            title: 'Guide',
+            collapsable: true,
+            children: [
+              '',
+              'using-vue',
+            ]
+          }],
         }
       },
-      '/fa/' : {
+      '/fa/': {
         repo: '',
         selectText: 'فارسی',
         label: 'فارسی',
         editLinkText: 'میتوانید در گیت هاب ویرایش کنید',
         editLinks: false,
-        docsDir: '',
+        docsDir: '/fa/',
         editLinkText: '',
         lastUpdated: false,
         nav: [
           {
-            text: 'Guide',
-            link: '/guide/',
+            text: 'کتابخانه ها',
+            link: '/fa/library/'
           },
           {
-            text: 'Library',
-            link: '/config/'
-          },
-          {
-            text: 'DLang',
+            text: 'مرجع',
             link: 'https://dlang.org/'
           }
         ],
         sidebar: {
-          '/guide/': [
-            {
-              title: 'Guide',
-              collapsable: false,
-              children: [
-                '',
-                'using-vue',
-              ]
-            }
-          ],
+          '/fa/library/': [{
+            title: 'کتابخانه ها',
+            collapsable: true,
+            children: [
+              '',
+              'using-vue',
+            ]
+          }],
         }
       }
     }

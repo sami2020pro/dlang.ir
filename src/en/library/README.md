@@ -2,14 +2,9 @@
 sidebar: auto
 ---
 
-# Config
+# Library
 
 ## foo
-
-- Type: `string`
-- Default: `/`
-
-## bar
 
 - Type: `string`
 - Default: `/`

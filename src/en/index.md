@@ -1,9 +1,9 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: https://download.logo.wine/logo/D_(programming_language)/D_(programming_language)-Logo.wine.png
 tagline: D Programming Language
 actionText: Quick Start →
-actionLink: /guide/
+actionLink: /en/guide/
 features:
 - title: Feature 1 Title
   details: Feature 1 Description
