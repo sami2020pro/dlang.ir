@@ -35,7 +35,7 @@ module.exports = {
   plugins: ['@vuepress/active-header-links', '@vuepress/back-to-top'],
 
   dest: 'public',
-  
+
   base: '/dlangir/',
 
   locales: {
@@ -63,12 +63,11 @@ module.exports = {
         selectText: 'English',
         label: 'English',
         editLinkText: 'Edit this page on GitHub',
-        editLinks: false,
+        editLinks: true,
         docsDir: '/en/',
         editLinkText: '',
-        lastUpdated: false,
-        nav: [
-          {
+        lastUpdated: true,
+        nav: [{
             text: 'Library',
             link: '/en/library/'
           },
@@ -93,12 +92,10 @@ module.exports = {
         selectText: 'فارسی',
         label: 'فارسی',
         editLinkText: 'میتوانید در گیت هاب ویرایش کنید',
-        editLinks: false,
+        editLinks: true,
         docsDir: '/fa/',
-        editLinkText: '',
-        lastUpdated: false,
-        nav: [
-          {
+        lastUpdated: true,
+        nav: [{
             text: 'کتابخانه ها',
             link: '/fa/library/'
           },
@@ -129,9 +126,6 @@ module.exports = {
     }
   },
 
-  /**
-   * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
-   */
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
