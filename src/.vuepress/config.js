@@ -96,6 +96,10 @@ module.exports = {
         docsDir: '/fa/',
         lastUpdated: true,
         nav: [{
+            text: 'راهنما',
+            link: '/fa/guide/'
+          },
+          {
             text: 'کتابخانه ها',
             link: '/fa/library/'
           },
@@ -107,6 +111,14 @@ module.exports = {
         sidebar: {
           '/fa/library/': [{
             title: 'کتابخانه ها',
+            collapsable: true,
+            children: [
+              '',
+              'using-vue',
+            ]
+          }],
+          '/fa/guide/': [{
+            title: 'راهنما',
             collapsable: true,
             children: [
               '',
