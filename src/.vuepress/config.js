@@ -3,10 +3,12 @@ const {
 } = require('../../package')
 
 module.exports = {
+
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
   title: 'D Lang',
+
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -68,6 +70,9 @@ module.exports = {
         editLinkText: '',
         lastUpdated: true,
         nav: [{
+            text: 'Guide',
+            link: '/en/guide/'
+          }, {
             text: 'Library',
             link: '/en/library/'
           },
@@ -83,6 +88,14 @@ module.exports = {
             children: [
               '',
               'using-vue',
+            ]
+          }],
+          '/en/library/': [{
+            title: 'Library',
+            collapsable: true,
+            children: [
+              '',
+              'std-algorithm',
             ]
           }],
         }

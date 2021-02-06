@@ -10,7 +10,3 @@ meta:
 
 # کتابخانه ها
 
-## foo
-
-- Type: `string`
-- Default: `/`
