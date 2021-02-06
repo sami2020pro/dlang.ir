@@ -87,7 +87,7 @@ module.exports = {
             collapsable: true,
             children: [
               '',
-              'using-vue',
+              'basics',
             ]
           }],
           '/en/library/': [{
