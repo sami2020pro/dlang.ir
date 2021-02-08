@@ -9,7 +9,7 @@
 
 ### available languages
 
-[فارسی](./README-fa.md)
+[Farsi](./README-fa.md)
 
 ## Contributors ✨
 
