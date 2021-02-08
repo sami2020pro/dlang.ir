@@ -13,8 +13,7 @@
     "build": "vuepress build src",
     "contributors:init": ".\\node_modules\\.bin\\all-contributors init",
     "contributors:add": ".\\node_modules\\.bin\\all-contributors add",
-    "contributors:check": ".\\node_modules\\.bin\\all-contributors check",
-    "contributors:generate": ".\\node_modules\\.bin\\all-contributors generate"
+    "contributors:check": ".\\node_modules\\.bin\\all-contributors check"
   },
   "license": "MIT",
   "devDependencies": {

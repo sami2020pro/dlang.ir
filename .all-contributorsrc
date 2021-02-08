@@ -22,7 +22,8 @@
         "maintenance",
         "projectManagement",
         "translation",
-        "tutorial"
+        "tutorial",
+        "ideas"
       ]
     },
     {
@@ -31,7 +32,6 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/64816951?v=4",
       "profile": "https://github.com/sami2020pro",
       "contributions": [
-        "bug",
         "code",
         "doc",
         "example",
@@ -40,15 +40,6 @@
         "translation",
         "tutorial",
         "video"
-      ]
-    },
-    {
-      "login": "test",
-      "name": "test",
-      "avatar_url": "https://avatars.githubusercontent.com/u/383316?v=4",
-      "profile": "https://github.com/test",
-      "contributions": [
-        "a11y"
       ]
     }
   ],
