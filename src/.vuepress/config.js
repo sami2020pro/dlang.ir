@@ -32,17 +32,30 @@ module.exports = {
       name: 'apple-mobile-web-app-status-bar-style',
       content: 'black'
     }],
-    ['link', { rel: 'icon', href: '/DLogo.png' }]
+    ['link', {
+      rel: 'icon',
+      href: '/DLogo.png'
+    }]
   ],
 
   plugins: ['@vuepress/active-header-links', '@vuepress/back-to-top'],
 
-  dest: 'public',
+  dest: 'dist',
 
   base: '/dlangir/',
 
+  host: 'localhost',
+
+  port: '8080',
+
+  cache: true,
+
+  markdown: {
+    lineNumbers: true,
+  },
+
   locales: {
-    '/en/': {
+    '/': {
       lang: 'en-US', // this will be set as the lang attribute on <html>
       title: 'D Language',
       description: 'D Programming Language'
@@ -61,7 +74,7 @@ module.exports = {
    */
   themeConfig: {
     locales: {
-      '/en/': {
+      '/': {
         repo: '',
         selectText: 'English',
         label: 'English',

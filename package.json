@@ -1,6 +1,6 @@
 {
   "name": "dlangir",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "description": "D Programming Language",
   "main": "index.js",
   "authors": {
