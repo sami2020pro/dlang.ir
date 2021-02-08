@@ -10,12 +10,15 @@
   "repository": "https://github.com/miladimos/dlang.ir.git/dlangir",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "build": "vuepress build src",
+    "contributors:add": '.\node_modules\.bin\all-contributors add',
+    "contributors:generate": ".\node_modules\.bin\all-contributors generate"
   },
   "license": "MIT",
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "^1.8.0",
     "@vuepress/plugin-back-to-top": "^1.8.0",
+    "all-contributors-cli": "^6.19.0",
     "vuepress": "^1.5.3"
   }
 }
