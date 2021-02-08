@@ -102,6 +102,7 @@ module.exports = {
             children: [
               '',
               'basics',
+              'io',
             ]
           }],
           '/en/library/': [{
