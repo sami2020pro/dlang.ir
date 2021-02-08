@@ -1,6 +1,10 @@
 # D Programming Language Examples
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+
+- [![Starts](https://img.shields.io/github/stars/miladimos/laravel-dlang.ir?style=flat&logo=github)](https://github.com/miladimos/laravel-dlang.ir/forks)
+- [![Forks](https://img.shields.io/github/forks/miladimos/laravel-dlang.ir?style=flat&logo=github)](https://github.com/miladimos/laravel-dlang.ir/stargazers)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -8,7 +12,6 @@
 ### available languages
 
 [فارسی](./README-fa.md)
-
 
 
 
@@ -34,3 +37,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+
+## Contributing
+
+please read [CONTRIBUTING.md](./CONTRIBUTING.md)
