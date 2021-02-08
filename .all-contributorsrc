@@ -1,0 +1,30 @@
+{
+  "projectName": "dlang.ir",
+  "projectOwner": "miladimos",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "miladimos",
+      "name": "Milad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31257147?v=4",
+      "profile": "https://github.com/miladimos",
+      "contributions": [
+        "code",
+        "doc",
+        "example",
+        "maintenance",
+        "projectManagement",
+        "translation",
+        "tutorial"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
