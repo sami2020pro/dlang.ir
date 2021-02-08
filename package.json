@@ -11,8 +11,10 @@
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src",
-    "contributors:add": '.\node_modules\.bin\all-contributors add',
-    "contributors:generate": ".\node_modules\.bin\all-contributors generate"
+    "contributors:init": ".\\node_modules\\.bin\\all-contributors init",
+    "contributors:add": ".\\node_modules\\.bin\\all-contributors add",
+    "contributors:check": ".\\node_modules\\.bin\\all-contributors check",
+    "contributors:generate": ".\\node_modules\\.bin\\all-contributors generate"
   },
   "license": "MIT",
   "devDependencies": {
