@@ -12,7 +12,7 @@
   "contributors": [
     {
       "login": "miladimos",
-      "name": "Milad",
+      "name": "Miladimos",
       "avatar_url": "https://avatars.githubusercontent.com/u/31257147?v=4",
       "profile": "https://github.com/miladimos",
       "contributions": [
@@ -23,6 +23,23 @@
         "projectManagement",
         "translation",
         "tutorial"
+      ]
+    },
+    {
+      "login": "sami2020pro",
+      "name": "Sami Ghasemi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64816951?v=4",
+      "profile": "https://github.com/sami2020pro",
+      "contributions": [
+        "bug",
+        "code",
+        "doc",
+        "example",
+        "ideas",
+        "maintenance",
+        "translation",
+        "tutorial",
+        "video"
       ]
     }
   ],
