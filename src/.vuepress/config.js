@@ -31,7 +31,8 @@ module.exports = {
     ['meta', {
       name: 'apple-mobile-web-app-status-bar-style',
       content: 'black'
-    }]
+    }],
+    ['link', { rel: 'icon', href: '/DLogo.png' }]
   ],
 
   plugins: ['@vuepress/active-header-links', '@vuepress/back-to-top'],
